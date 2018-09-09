@@ -1,0 +1,8 @@
+{
+    "port": 1337,
+    "log_file": "tmp/passenger.log",
+    "pid_file": "tmp/passenger.pid",
+    "daemonize": true,
+    "nginx_config_template" : "deploy/nginx.conf.erb",
+    "environment": "development"
+}

@@ -1,0 +1,12 @@
+tmp/*
+.passenger/*
+Dockerfile
+.bundle/*
+predict/bin/*
+predict/include/*
+predict/lib/*
+predict/.Python
+predict/pip-selfcheck.json
+vendor/
+.idea/
+config/*

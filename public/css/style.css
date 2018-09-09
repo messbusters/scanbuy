@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    padding: 0 15px;
+    background-color: #283593;
+}
+.nav-wrapper img { margin-right: 15px; height: 58px; width: auto }
+
+main {
+    flex: 1 0 auto;
+}
+
+#main-form h1 { color: #283593; font-weight: 600 }
+#main-form img { height: 100px; width: auto }
+.btn-large { background-color: #283593 }
+
+.card { height: 400px }
+.card .card-image { height: 200px; overflow: hidden }
+.card .card-image img { height: 200px; width: auto; margin: 0 auto }
+.card .card-content { height: 145px }
+
+.container { width: 100%; max-width: none }
+.tabs { background-color: #283593 }
+.tabs .tab a { color: white }
+.tabs .tab a:hover, .tabs .tab a.active { background-color: #F4511E; color: white }
+
+#loader img { height: 200px; width: auto; margin: 0 auto 15px }
+
+.page-footer { background-color: white }
+footer img { width: 150px; height: auto }
+footer .info { color: lightgrey }

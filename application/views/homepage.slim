@@ -1,0 +1,31 @@
+==slim :header, :layout => nil
+
+main
+    .container.center.row#results
+    .container.center#main-form
+        br
+        br
+        img src="/img/logo.svg"
+        h1.header.center ScanBuy
+        .row.center
+            h5.header.col.s12.light Saw something you like? Scan it and order it in seconds!
+        .row.center
+            #upload-demo style="display:none"
+        .row.center.file-field.input-field#upload-btn
+            .btn-large.waves-effect.waves-light style="float: none"
+                span Scan a product
+                input#upload type="file"
+            .file-path-wrapper.hide
+                input.file-path.validate type="text"
+        .row.center#submit-btn style="display:none"
+            .btn-large.waves-effect.waves-light style="float: none" Find the product
+        br
+        br
+    .container.center#loader style="display:none"
+        br
+        br
+        .row.center
+            h5.header.col.s12.light.grey-text Detecting...
+        img src="/img/loader.gif"
+
+==slim :footer, :layout => nil
